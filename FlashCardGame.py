@@ -4,7 +4,7 @@ import sys
 
 def main():
     print("Welcome to the flashcard game!")
-    print("Enter 0 fro flashcard game, or the number of the chapter you would like to study.")
+    print("Enter 0 for flashcard game, or the number of the chapter you would like to study.")
     userOption = input("Enter option: ")
     flash_card_game(userOption)
         
@@ -126,7 +126,7 @@ def Chapter_2(flash_card_list):
     flash_card_list.append(Flash_Card("to receive", "recibir"))
     flash_card_list.append(Flash_Card("to live", "vivir"))
 
-    #Seasons, dates, and such
+    # Seasons, dates, and such
     flash_card_list.append(Flash_Card("Summer", "el verano"))
     flash_card_list.append(Flash_Card("Spring", "la primavera"))
     flash_card_list.append(Flash_Card("Winter", "el invierno"))
@@ -144,8 +144,10 @@ def Chapter_2(flash_card_list):
     flash_card_list.append(Flash_Card("December", "diciembre"))
     flash_card_list.append(Flash_Card("Monday", "lunes"))
     flash_card_list.append(Flash_Card("Tuesday", "martes"))
+    flash_card_list.append(Flash_Card("Wednesday", "miércoles"))
     flash_card_list.append(Flash_Card("Thursday", "jueves"))
     flash_card_list.append(Flash_Card("Friday", "viernes"))
+    flash_card_list.append(Flash_Card("Saturday", "sábado"))
     flash_card_list.append(Flash_Card("Sunday", "domingo"))
 
     # Colors
@@ -159,6 +161,21 @@ def Chapter_2(flash_card_list):
     flash_card_list.append(Flash_Card("Blue", "azul"))
     flash_card_list.append(Flash_Card("Grey", "gris"))
     flash_card_list.append(Flash_Card("Pink", "rosado"))
+
+    # Questions
+    flash_card_list.append(Flash_Card("What", "Qúe"))
+    flash_card_list.append(Flash_Card("How many", "Cuantas"))
+    flash_card_list.append(Flash_Card("Who", "Quién"))
+
+    # Weather
+    
+
+    # Phrases
+    flash_card_list.append(Flash_Card("I like to dance", "Me gusta bailar"))
+    flash_card_list.append(Flash_Card("you like to swim", "Te gusta nadar"))
+    flash_card_list.append(Flash_Card("we like to clean the house", "Nos gusta limpiar la casa"))
+    flash_card_list.append(Flash_Card("I am 24 years old", "Tengo veintecuatro anós"))
+    flash_card_list.append(Flash_Card("What is the weather like today", "que tiempo hace hoy"))
     
     return flash_card_list
 
